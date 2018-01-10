@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div style="width: 320px; margin: 50px auto;">
+		<form class="form-group" action="SignupValidate" method="post">
+			<div class="form-group">
+				<label for="email">Email_Id</label> <input type="text"
+					class="form-control" name="emailid" id="email"
+					placeholder="Enter your Email Id" />
+			</div>
+			<div class="form-group">
+				<label for="firstname">First Name</label> <input type="text"
+					id="firstname" name="firstname" class="form-control"
+					placeholder="First Name" />
+			</div>
+			<div class="form-group">
+				<label for="lastname">Last Name</label> <input type="text"
+					id="lastname" name="lastname" class="form-control"
+					placeholder="Last Name" />
+			</div>
+			<div class="form-group">
+				<label for="username">Username</label> <input type="text"
+					id="username" name="username" class="form-control"
+					placeholder="create username" />
+			</div>
+			<div class="form-group">
+				<label for="password">Password</label> <input type="password"
+					id="password" name="password" class="form-control"
+					placeholder="create password" />
+			</div>
+			
+			
+			<input type="submit" value="Login" class="btn btn-primary" />
+			<button type="button" class="btn btn-success" onclick="window.location.href='signinform.html'">I have an account</button>
+		</form>
+	</div>
+</body>
+</html>
