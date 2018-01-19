@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="Demo">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angular Web</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" ng-controller="StoreController as store">
+        <table class="table">
+            <tr>
+                <th>#</th>
+                <th>ID</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>&nbsp;</th>
+            </tr>
+            <tr ng-repeat="contact in store.contacts">
+                <td>{{$index + 1}}</td>
+                <td>{{contact.id}}</td>
+                <td>{{contact.firstName}}</td>
+                <td>{{contact.lastName}}</td>
+                <td>{{contact.email}}</td>
+                <td>{{contact.phone}}</td>
+                <td>
+                    <button class="btn btn-primary btn-sm">Edit</button>
+                    <button ng-click="store.delete($index)" class="btn btn-danger btn-sm">Delete</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>

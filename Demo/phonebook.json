@@ -1,0 +1,30 @@
+{
+    "contacts":[{
+    "id":101,
+    "firstName":"naveen",
+    "lastName":"kumar",
+    "email":"naveensathiyamoorthy1029@gmail.com",
+    "phoneNumber":9894982601
+    },
+    {
+        "id":102,
+    "firstName":"krishna",
+    "lastName":"kumar",
+    "email":"krishna@gmail.com",
+    "phoneNumber":9894982602
+    },
+    {
+        "id":103,
+    "firstName":"Jai",
+    "lastName":"sakthi",
+    "email":"jaishakthi@gmail.com",
+    "phoneNumber":9894982603
+    },
+    {
+        "id":104,
+    "firstName":"sanjeev",
+    "lastName":"kumar",
+    "email":"sanjeevkumar@gmail.com",
+    "phoneNumber":9894982604
+    }]
+}
